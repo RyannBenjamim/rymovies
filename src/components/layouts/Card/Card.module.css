@@ -1,0 +1,23 @@
+.card {
+    width: 180px;
+    height: 280px;
+    flex: none;
+    margin: 10px;
+    border-radius: 8px;
+    border: 2px solid #722a2a;
+    box-shadow: 8px 8px 16px -8px rgba(0, 0, 0, 0.233);
+    opacity: 90%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 700px) {
+    .card {
+        width: 130px;
+        height: 200px;
+    }
+}

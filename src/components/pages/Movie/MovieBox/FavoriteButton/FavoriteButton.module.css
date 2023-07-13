@@ -1,0 +1,21 @@
+.wrapper button {
+    outline: none;
+    border: 1px solid #c4c4c4;
+    background-color: #181818;
+    border-radius: 6px;
+    padding: 4px 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.wrapper button p {
+    color: #dadada;
+}
+
+.wrapper button i {
+    font-size: 1rem !important;
+    color: #dadada;
+}
